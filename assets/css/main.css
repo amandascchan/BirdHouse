@@ -2006,12 +2006,13 @@
 	#header-wrapper {
 		position: relative;
 		padding: 4em 0 2em 0;
-		background-image: url("images/bridge_wall.jpg");
-		background-image: url("images/overlay.png"), url("images/bridge_wall.png"), -moz-linear-gradient(75deg, #FF7088 15%, #F2B69D 55%);
-		background-image: url("images/overlay.png"), url("images/bridge_wall.png"), -webkit-linear-gradient(75deg, #FF7088 15%, #F2B69D 55%);
-		background-image: url("images/overlay.png"), url("images/bridge_wall.png"), -ms-linear-gradient(75deg, #FF7088 15%, #F2B69D 55%);
-		background-image: url("images/overlay.png"), url("images/bridge_wall.png"), linear-gradient(75deg, #FF7088 15%, #F2B69D 55%);
-		background-color: #f08c89;
+/*		background-image: url("images/bridge_wall.jpg");
+		background-image: url("images/overlay.png"), url("images/bridge_wall.jpg"), -moz-linear-gradient(75deg, #FF7088 15%, #F2B69D 55%);
+		background-image: url("images/overlay.png"), url("images/bridge_wall.jpg"), -webkit-linear-gradient(75deg, #FF7088 15%, #F2B69D 55%);
+		background-image: url("images/overlay.png"), url("images/bridge_wall.jpg"), -ms-linear-gradient(75deg, #FF7088 15%, #F2B69D 55%);
+		background-image: url("images/overlay.png"), url("images/bridge_wall.jpg"), linear-gradient(75deg, #FF7088 15%, #F2B69D 55%);
+		background-color: #f08c89; */
+        background-image:url("images/overlay.png"), url("../../images/bridge_wall.jpg");
 		background-size: 100% 620%;
 		background-size: 128px 128px, 100% 620%, auto;
 		background-repeat: repeat, no-repeat, no-repeat;
@@ -2024,7 +2025,7 @@
 
 	#promo-wrapper {
 		position: relative;
-		background-image: url("images/overlay.png"), url("../../images/promo.jpg");
+		background-image: url("images/overlay.png"), url("../../images/larry_artsy.jpg");
 		background-size: 192px 192px, cover;
 		background-position: top left, center center;
 		color: #fff;
