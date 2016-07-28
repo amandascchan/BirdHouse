@@ -137,9 +137,8 @@
 						<header class="major">
 							<h2>Mission</h2>
                             <p>An energetic team, we are excited about
-                            tomorrow. We want nothing more, than to use the
-                            technology we love to make the lives of people
-                            safer, and more fulfilling. </p>
+                            tomorrow. We dream of technology that will make us
+                            safer, and happier.  </p>
 						</header>
 				</div>
                 	<!-- Promo -->
@@ -192,8 +191,8 @@
 							<li><a href="#" class="button">Elevate my awareness</a></li>
 						</ul>
 					</section>
-                </div>
-        
+                    </div>
+        <!-- -->
 		<div id="promo-wrapper">
             <br/><br/>
 		</div>
@@ -201,7 +200,7 @@
 					<section class="container">
 						<header class="major">
 							<h2>Reporting -- something something</h2>
-                            <!--<p> something something forms</p>
+                            <p> something something forms</p>
 						</header>
 						<div class="row features">
 							<section class="4u 12u(narrower) feature">
@@ -215,7 +214,7 @@
 							<li><a href="#" class="button">Elevate my awareness</a></li>
 						</ul>
 					</section>
-                </div>-->
+				</div>
 
 
 			<!-- Footer -->
