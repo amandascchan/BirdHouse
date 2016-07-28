@@ -2014,7 +2014,7 @@
 		background-color: #f08c89; */
         background-image:url("images/overlay.png"), url("../../images/bridge_wall.jpg");
 		background-size: 100% 620%;
-		background-size: 128px 128px, 100% 620%, auto;
+		background-size: 128px 128px, 100% actual, auto;
 		background-repeat: repeat, no-repeat, no-repeat;
 	}
 
