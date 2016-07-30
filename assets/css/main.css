@@ -2013,8 +2013,8 @@
 		background-image: url("images/overlay.png"), url("images/bridge_wall.jpg"), linear-gradient(75deg, #FF7088 15%, #F2B69D 55%);
 		background-color: #f08c89; */
         background-image:url("images/overlay.png"), url("../../images/bridge_wall.jpg");
-		background-size: 100% 1000%;
-		background-size: 128px 128px, 100% 1000%, auto;
+		background-size: 100% 1500%;
+		background-size: 128px 128px, 100% 1500%, auto;
 		background-repeat: repeat, no-repeat, no-repeat;
 	}
 
