@@ -2012,15 +2012,13 @@
 		background-image: url("images/overlay.png"), url("images/bridge_wall.jpg"), -ms-linear-gradient(75deg, #FF7088 15%, #F2B69D 55%);
 		background-image: url("images/overlay.png"), url("images/bridge_wall.jpg"), linear-gradient(75deg, #FF7088 15%, #F2B69D 55%);
 		background-color: #f08c89; */
-        background-image:url("images/overlay.png"), url("../../images/bridge_wall.jpg");
-		background-size: 100%;
-		background-size: 128px 128px, 100%, auto;
-		background-repeat: repeat, no-repeat, no-repeat;
+        background-image: url("../../images/bridge_wall.jpg");
+		background-size: cover;
+		background-repeat: no-repeat, no-repeat, no-repeat;
 	}
 
 	.homepage #header-wrapper {
 		padding: 10em 0 6em 0;
-		background-size: 128px 128px, 100% 100%, auto;
 	}
 
 	#promo-wrapper {
