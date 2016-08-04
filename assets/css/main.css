@@ -2012,9 +2012,10 @@
 		background-image: url("images/overlay.png"), url("images/bridge_wall.jpg"), -ms-linear-gradient(75deg, #FF7088 15%, #F2B69D 55%);
 		background-image: url("images/overlay.png"), url("images/bridge_wall.jpg"), linear-gradient(75deg, #FF7088 15%, #F2B69D 55%);
 		background-color: #f08c89; */
-        background-image: url("../../images/bridge_wall.jpg");
+        background-image: url("../../images/larry_artsy_HQ.jpg");
 		background-size: cover;
 		background-repeat: no-repeat, no-repeat, no-repeat;
+
 	}
 
 	.homepage #header-wrapper {
@@ -2023,9 +2024,10 @@
 
 	#promo-wrapper {
 		position: relative;
-		background-image: url("images/overlay.png"), url("../../images/promo_replace.jpg");
-		background-size: 192px 192px, cover;
-		background-position: top left, center center;
+		background-image: url("images/overlay.png"), url("../../images/purple.jpg");
+
+		/*background-size: 192px 192px, cover;
+		background-position: top left, center center;*/
 		color: #fff;
 		text-align: center;
 		padding: 6em 0 6em 0;
