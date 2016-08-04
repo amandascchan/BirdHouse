@@ -29,6 +29,14 @@
 		// Fix: Placeholder polyfill.
 			$('form').placeholder();
 
+        // Button click for video
+        $("video_button").click(function () {
+            $("#content").hide();
+            $("#yt")[0].src += "?autoplay=1";
+            $("#yt").show();
+        });
+
+
 		// Prioritize "important" elements on narrower.
 			skel.on('+narrower -narrower', function() {
 				$.prioritize(
