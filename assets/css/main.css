@@ -2229,6 +2229,7 @@
 			}
 
 /* Promo */
+            
 
 	#promo {
 		background: rgba(255, 255, 255, 0.05);
@@ -2973,11 +2974,28 @@
         }*/
 
         .video-container {
+            background: rgba(255, 255, 255, 0.05);
+            border: solid 1px rgba(255, 255, 255, 0.25);
+            border-radius: 0.5em;
+            padding: 1.75em 2.5em 1.75em 2.5em;
+            display: inline-block;
+            z-index: 1;
+
             position:relative;
             padding-bottom:56.25%;
             padding-top:30px;
             height:0;
+            width:80%;
+            max-width:640px;
             overflow:hidden;
+            margin: auto;
+        }
+
+        .video-container h2 {
+            color: #fff;
+            display: inline-block;
+            margin-right: 1em;
+            font-size: 1.75em;
         }
 
         .video-container iframe, .video-container object, .video-container embed {
@@ -2986,4 +3004,4 @@
             left:0;
             width:100%;
             height:100%;
-        }
+        } 
