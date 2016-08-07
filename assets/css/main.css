@@ -1649,9 +1649,12 @@
 		font-style: italic;
 	}
 
-	p, ul, ol, dl, table {
+	p, ol, dl, table {
 		margin-bottom: 1.5em;
 	}
+    ul {
+        margin-bottom: 1.0em;
+    }
 
 	br.clear {
 		clear: both;
@@ -2324,7 +2327,7 @@
 		/* Wrappers */
 
 			.wrapper {
-				padding: 1em 0 0 0;
+				padding: 1em 0 1em 0;
 			}
 
 			#header-wrapper {
