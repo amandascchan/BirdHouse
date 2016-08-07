@@ -2324,7 +2324,7 @@
 		/* Wrappers */
 
 			.wrapper {
-				padding: 5em 0 5em 0;
+				padding: 1em 0 0 0;
 			}
 
 			#header-wrapper {
@@ -2336,7 +2336,7 @@
 			}
 
 			#promo-wrapper {
-				padding: 5em 0 5em 0;
+				padding: 1em 0 1em 0;
 			}
 
 			#footer-wrapper {
