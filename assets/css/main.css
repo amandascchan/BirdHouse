@@ -2025,15 +2025,7 @@
 	#promo-wrapper {
 		position: relative;
 		/*background-image: url("images/overlay.png"), url("../../images/ugly_yellow.jpg");*/
-
-
-
-
-
         background: #34495E; /* fallback for old browsers */
-       /* background: -webkit-linear-gradient(to left, #abbaab , #ffffff); /* Chrome 10-25, Safari 5.1-6 */
-        /*background: linear-gradient(to left, #abbaab , #ffffff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-        
 		/*background-size: 192px 192px, cover;
 		background-position: top left, center center;*/
 		color: #fff;
@@ -2252,7 +2244,7 @@
 	}
 
 		#promo h2 {
-			color: #fff;
+			color: #ECECEC;
 			display: inline-block;
 			margin-right: 1em;
 			font-size: 1.75em;
