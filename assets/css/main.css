@@ -2015,7 +2015,7 @@
 		background-image: url("images/overlay.png"), url("images/bridge_wall.jpg"), -ms-linear-gradient(75deg, #FF7088 15%, #F2B69D 55%);
 		background-image: url("images/overlay.png"), url("images/bridge_wall.jpg"), linear-gradient(75deg, #FF7088 15%, #F2B69D 55%);
 		background-color: #f08c89; */
-        background-image: url("../../images/Larry_Artsy_HQ_Blur_2.png");
+        background-image: url("../../images/bridge_wall_HQ.jpg");
 		background-size: cover;
 		background-repeat: no-repeat, no-repeat, no-repeat;
 
