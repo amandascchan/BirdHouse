@@ -2028,7 +2028,7 @@
 	#promo-wrapper {
 		position: relative;
 		/*background-image: url("images/overlay.png"), url("../../images/ugly_yellow.jpg");*/
-        background: #34495E; /* fallback for old browsers */
+        background: #2C3E50; /*#34495E; fallback for old browsers */
 		/*background-size: 192px 192px, cover;
 		background-position: top left, center center;*/
 		color: #fff;
