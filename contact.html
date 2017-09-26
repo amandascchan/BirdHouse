@@ -34,11 +34,11 @@
 					<div class="main-navigation">
 						<button type="button" class="menu-toggle"><i class="fa fa-bars"></i></button>
 						<ul class="menu">
-							<li class="menu-item current-menu-item"><a href="index.html">Home</a></li>
+							<li class="menu-item"><a href="index.html">Home</a></li>
 							<li class="menu-item"><a href="about.html">About</a></li>
 							<li class="menu-item"><a href="#">Features</a></li>
 							<li class="menu-item"><a href="clients.html">Clients</a></li>
-							<li class="menu-item"><a href="contact.html">Contact</a></li>
+							<li class="menu-item current-menu-item"><a href="contact.html">Contact</a></li>
 						</ul> <!-- .menu -->
 					</div> <!-- .main-navigation -->
 					
@@ -47,61 +47,56 @@
 			</header> <!-- .site-header -->
 
 			<main class="main-content">
-				<div class="hero">
+				
+				<div class="map" data-latitude="-6.897789" data-longitude="107.621735" ></div>
+				
+				<div class="fullwidth-block contact-area">
 					<div class="container">
-						<img src="images/imac.png" alt="" class="imac">
-						<div class="hero-content">
-							<span>Adipisicing elit eiusmod tempor</span> <br>
-							<span>Incididunt ut labore et dolore magna aliqua dolor</span>
-						</div>
-						<a href="#" class="button">Try it now</a>
-					</div>
-				</div> <!-- .hero -->
 
-				<div class="fullwidth-block">
-					<div class="container">
-						<div class="col-md-4">
-							<div class="feature">
-								<i class="feature-icon"><img src="images/icon-server.png" alt=""></i>
-								<h2 class="feature-title">Dedicated Server</h2>
-								<p>Vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti.</p>
+						<div class="row">
+							<div class="col-md-5">
+								<address>
+									3512 Dodge St <br>
+									Omaha, NE 68131 <br>
+									<a href="tel:(+45) 647 636 7345">(+45) 647 636 7345</a> <br>
+									<a href="mailto:hello@perfectlab.com">hello@perfectlab.com</a>
+								</address>
 							</div>
-						</div>
-						<div class="col-md-4">
-							<div class="feature">
-								<i class="feature-icon"><img src="images/icon-window.png" alt=""></i>
-								<h2 class="feature-title">Intuitive Dashboard</h2>
-								<p>Assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet voluptates.</p>
-							</div>
-						</div>
-						<div class="col-md-4">
-							<div class="feature">
-								<i class="feature-icon"><img src="images/icon-id-card.png" alt=""></i>
-								<h2 class="feature-title">Your Own ID</h2>
-								<p>Praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident similique.</p>
+							<div class="col-md-7">
+								<div class="contact-form">
+									<div class="row">
+										<div class="col-md-6">
+											<div class="control">
+												<i class="fa fa-user"></i>
+												<input type="text" placeholder="Name...">
+											</div>
+										</div>
+										<div class="col-md-6">
+											<div class="control">
+												<i class="fa fa-envelope"></i>
+												<input type="text" placeholder="Email...">
+											</div>
+										</div>
+									</div>
+									<div class="control">
+										<i class="fa fa-pencil"></i>
+										<textarea placeholder="Message"></textarea>
+									</div>
+									<p class="right-aligned">
+										<input type="submit" value="Send message">
+									</p>
+								</div>
 							</div>
 						</div>
 					</div>
 				</div>
 
-				 <div class="fullwidth-block cta">
-				 	<div class="container">
-				 		<div class="row">
-				 			<div class="col-md-9">
-				 				<h2>Interested? You can try it <span>for free.</span> You just need 3 minutes!</h2>
-				 			</div>
-				 			<div class="col-md-3">
-				 				<a href="#" class="button">Get Trial Version</a>
-				 			</div>
-				 		</div>
-				 	</div>
-				 </div>
 			</main> <!-- .main-content -->
 
 			<footer class="site-footer">
 				<div class="container">
 					<div class="row">
-						<div class="col-xs-6 col-md-3">
+						<div class="col-xs-6 col-sm-3">
 							<div class="widget">
 								<h3 class="widget-title">Contact</h3>
 								<address>
@@ -112,7 +107,7 @@
 								</address>
 							</div>
 						</div>
-						<div class="col-xs-6 col-md-3">
+						<div class="col-xs-6 col-sm-3">
 							<div class="widget">
 								<h3 class="widget-title">Help</h3>
 								<ul class="dash-list">
@@ -124,7 +119,7 @@
 								</ul>
 							</div>
 						</div>
-						<div class="col-xs-6 col-md-3">
+						<div class="col-xs-6 col-sm-3">
 							<div class="widget">
 								<h3 class="widget-title">Jobs</h3>
 								<ul class="dash-list">
@@ -135,7 +130,7 @@
 								</ul>
 							</div>
 						</div>
-						<div class="col-xs-6 col-md-3">
+						<div class="col-xs-6 col-sm-3">
 							<div class="widget">
 								<h3 class="widget-title">Follow us</h3>
 								<div class="social-links">
